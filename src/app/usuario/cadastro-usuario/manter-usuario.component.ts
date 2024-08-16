@@ -15,6 +15,7 @@ export class ManterUsuarioComponent {
   usuarios: Usuario[] = [];
   usuario = new Usuario('1', '', 0);
   modoEdicao = false;
+ 
 
   constructor(private roteador: Router, private rotaAtual: ActivatedRoute,
     private mensagemService: MensagemSweetService,
